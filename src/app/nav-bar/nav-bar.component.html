@@ -1,0 +1,25 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <div style="display: flex; align-items: center;">
+        <!-- Left-aligned navigation using ul and li -->
+        <ul style="display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; margin-right: auto;">
+          <li>
+            <a routerLink="/home" class="nav-link" routerLinkActive="active-link">Home</a>
+          </li>
+          <li>
+            <a routerLink="/login" class="nav-link" routerLinkActive="active-link">Login</a>
+          </li>
+          <li>
+            <a routerLink="/register" class="nav-link" routerLinkActive="active-link">Signup</a>
+          </li>
+        </ul>
+        <!-- Right-aligned search form -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
